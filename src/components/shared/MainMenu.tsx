@@ -3,7 +3,7 @@ import ButtonPrimary from "../ui/ButtonPrimary";
 
 const MainMenu = () => {
   return (
-    <ul className="flex items-center gap-4 text-white">
+    <ul className="flex flex-col lg:flex-row items-center gap-4 text-white">
       <li>
         <Link
           href="#home"
