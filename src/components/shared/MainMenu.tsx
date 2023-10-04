@@ -13,31 +13,28 @@ const MainMenu = () => {
         </Link>
       </li>
       <li>
-      <Link
-          href="#service"
+        <Link
+          href="#services"
           className="py-2 px-4 border-b-2 border-transparent hover:border-primary transition-colors duration-300"
         >
           Services
         </Link>
-       
       </li>
       <li>
-      <Link
-          href="#about"
+        <Link
+          href="#plans"
           className="py-2 px-4 border-b-2 border-transparent hover:border-primary transition-colors duration-300"
         >
-          About
+          Plans
         </Link>
-       
       </li>
       <li>
-      <Link
+        <Link
           href="#contact"
           className="py-2 px-4 border-b-2 border-transparent hover:border-primary transition-colors duration-300"
         >
           Contact
         </Link>
-        
       </li>
       <li>
         <ButtonPrimary title="Join Us" type="button" />

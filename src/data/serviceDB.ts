@@ -1,4 +1,7 @@
-const data = [
+import Service from "@/types/service";
+
+
+const services: Service[] = [
   {
     id: 1,
     image: "/icons/icon-1.png",
@@ -43,4 +46,4 @@ const data = [
   },
 ];
 
-export default data;
+export default services;
