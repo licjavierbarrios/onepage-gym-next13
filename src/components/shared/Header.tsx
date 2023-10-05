@@ -4,7 +4,7 @@ import { useState } from "react";
 import Container from "@/components/shared/Container";
 import Logo from "@/components/shared/Logo";
 import MainMenu from "@/components/shared/MainMenu";
-import MenuMobile from "./MenuMobile";
+import MenuMobile from "@/components/shared/MenuMobile";
 
 import { RiMenuFill, RiCloseLine } from "react-icons/ri";
 

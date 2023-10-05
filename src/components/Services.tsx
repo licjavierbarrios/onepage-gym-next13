@@ -1,4 +1,4 @@
-import Container from "./shared/Container";
+import Container from "@/components/shared/Container";
 import Title from "@/components/ui/Title";
 import Service from "@/components/ui/CardService";
 import services from "@/data/serviceDB";

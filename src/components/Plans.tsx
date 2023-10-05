@@ -1,6 +1,6 @@
-import Container from "./shared/Container";
-import PlanDetails from "./ui/PlanDetails";
-import Title from "./ui/Title";
+import Container from "@/components/shared/Container";
+import PlanDetails from "@/components/ui/PlanDetails";
+import Title from "@/components/ui/Title";
 import plans from "@/data/plansDB";
 
 type Props = {};

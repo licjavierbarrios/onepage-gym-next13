@@ -1,6 +1,5 @@
 import Service from "@/types/service";
 
-
 const services: Service[] = [
   {
     id: 1,

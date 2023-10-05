@@ -1,5 +1,5 @@
 import Link from "next/link";
-import ButtonPrimary from "../ui/ButtonPrimary";
+import ButtonPrimary from "@/components/ui/ButtonPrimary";
 
 const MainMenu = () => {
   return (
@@ -30,10 +30,18 @@ const MainMenu = () => {
       </li>
       <li>
         <Link
-          href="#contact"
+          href="#trainers"
           className="py-2 px-4 border-b-2 border-transparent hover:border-primary transition-colors duration-300"
         >
-          Contact
+          Trainers
+        </Link>
+      </li>
+      <li>
+        <Link
+          href="#about"
+          className="py-2 px-4 border-b-2 border-transparent hover:border-primary transition-colors duration-300"
+        >
+          About
         </Link>
       </li>
       <li>
