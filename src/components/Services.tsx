@@ -7,7 +7,7 @@ const Services = (props: Props) => {
   return (
     <section
       id="services"
-      className="min-h-screen flex items-center justify-center"
+      className="min-h-screen flex items-center justify-center mb-10 lg:mb-0"
     >
       <Container>
         <Title title="Fitness Plans &" titlePrimary="Nutritionts" />
